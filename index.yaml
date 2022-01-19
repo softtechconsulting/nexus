@@ -31,4 +31,14 @@ entries:
     urls:
     - https://github.com/softtechconsulting/nexus/releases/download/nexus-0.41.2/nexus-0.41.2.tgz
     version: 0.41.2
-generated: "2022-01-19T04:00:29.305677962Z"
+  - apiVersion: v1
+    created: "2022-01-19T05:14:18.123454642Z"
+    description: A Helm chart for Kubernetes
+    digest: ec1d6bed456bc7c77c3da6039b217ec3d4dfcac174d342d01b2a2d3d3de64d9a
+    home: https://github.com/softtechconsulting/nexus
+    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/jenkins-x-platform/images/nexus.png
+    name: nexus
+    urls:
+    - https://github.com/softtechconsulting/nexus/releases/download/nexus-0.1.43/nexus-0.1.43.tgz
+    version: 0.1.43
+generated: "2022-01-19T05:14:18.123474542Z"
