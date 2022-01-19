@@ -99,7 +99,7 @@ done
 echo "Creating npmjs group repositories from json"
 mapfile -t REPOS < <(find "${NEXUS_NPMJS_GROUP_DIR}" -maxdepth 1 -type f -name "*json*")
 for repo in "${REPOS[@]}"; do
-    runCurlFromJsonFile "${repo}" "service/rest/v1/repositories/npmjs/group" POST
+    runCurlFromJsonFile "${repo}" "service/rest/v1/repositories/npm/group" POST
 done
 
 # For each maven group repository json file, create the repo via the Nexus API.
