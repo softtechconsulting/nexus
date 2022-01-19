@@ -6,13 +6,12 @@
     "strictContentTypeValidation": true
   },
   "group": {
-    "memberNames": ["docker-proxy", "docker-internal"],
-    "writableMember": "docker-internal"
+    "memberNames": ["docker-proxy", "docker-internal"]
   },
   "docker": {
     "v1Enabled": false,
     "forceBasicAuth": true,
-    "httpPort": 8082,
-    "httpsPort": 8083
+    "httpPort": 8086,
+    "httpsPort": 8087
   }
 }
