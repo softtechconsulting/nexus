@@ -18,3 +18,12 @@ RUN chmod -R g+rw /nexus-data
 RUN find /nexus-data -type d -exec chmod g+x {} +
 
 ENV NEXUS_DATA_CHOWN "true"
+
+# enable DOCKER connector ports
+EXPOSE 8081
+EXPOSE 8082
+EXPOSE 8083
+EXPOSE 8084
+EXPOSE 8085
+EXPOSE 8086
+EXPOSE 8087

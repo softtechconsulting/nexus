@@ -32,8 +32,7 @@
   "docker": {
     "v1Enabled": false,
     "forceBasicAuth": true,
-    "httpPort": 8084,
-    "httpsPort": 8085
+    "httpPort": 8084
   },
   "dockerProxy": {
     "indexType": "HUB"
