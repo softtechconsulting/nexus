@@ -19,7 +19,7 @@ spec:
       protocol: TCP
       name: {{ .Values.service.name }}
     - port: {{ .Values.service.dockerProxyPort }}
-      targetPort: {{ .Values.service.dockerProxyInternalPort }}
+      targetPort: {{ .Values.service.dockerProxyPort }}
       protocol: TCP
       name: {{ .Values.service.dockerProxyName }}
     - port: {{ .Values.service.dockerHostedPort }}

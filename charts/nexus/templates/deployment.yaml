@@ -28,11 +28,6 @@ spec:
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         env:
-        - name: NEXUS_CONTEXT
-          valueFrom:
-            configMapKeyRef:
-              name: nexus
-              key: context.path
         {{- range $key, $value := .Values.env }}
         - name: {{ $key }}
           value: "{{ $value }}"
